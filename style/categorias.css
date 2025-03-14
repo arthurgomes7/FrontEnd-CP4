@@ -1,12 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-:root{
- --bege: #DAD7CD;
- --verde-01: #A3B18A;
- --verde-02: #588157;
- --verde-03: #3A5A40;
- --verde-04: #344E41;
- --preto: #000;
- --branco: #fff;
- --fonte: "Montserrat", sans-serif;
+:root {
+    --bege: #DAD7CD;
+    --verde-01: #A3B18A;
+    --verde-02: #588157;
+    --verde-03: #3A5A40;
+    --verde-04: #344E41;
+    --verde-05: #354F4B;
+    --preto: #000;
+    --branco: #fff;
+    --fonte: "Montserrat", sans-serif;
 }
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    flex-wrap: wrap;
+    background-color: var(--verde-04);
+    width: 100vw;
+    height: 125px;
+    box-shadow: 0px 7px 50px #000;
+}
+
+#logo-menu {
+    width: 100px;
+    margin-top: 12.5px;
+}
+
+#icone-menu {
+    margin-top: 35px;
+    width: 53px;
+    height: 50px;
+    box-shadow: 0px 7px 1px black;
+    border-radius: 25px;
+}
+
+#carrinho-de-compras {
+    margin-top: 35px;
+    width: 53px;
+    height: 50px;
+    box-shadow: 0px 7px 1px black;
+    border-radius: 25px;
+}
+
+main {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--verde-01);
+}
+
+.container {}
