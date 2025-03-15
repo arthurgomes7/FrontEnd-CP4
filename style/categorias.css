@@ -2,28 +2,45 @@
 
 :root {
     --bege: #DAD7CD;
-    --verde-01: #A3B18A;
-    --verde-02: #588157;
-    --verde-03: #3A5A40;
-    --verde-04: #344E41;
-    --verde-05: #354F4B;
-    --preto: #000;
-    --branco: #fff;
+    --cor-01: #DFDFE1;
+    --cor-02: #0F8C22;
+    --cor-03: #73A641;
+    --cor-04: #F2C46D;
+    --cor-05: #F29B9B;
+    --sombra-de-items: #333333;
     --fonte: "Montserrat", sans-serif;
 }
+
+header {
+    background-color: var(--cor-01);
+}
+
+nav {
+    flex-wrap: wrap;
+    background-color: var(--cor-02);
+    width: 100vw;
+    height: 125px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor-01);
+}
+
+/*footer {
+    margin-top: 15px;
+    height: 150px;
+}*/
 
 #menu {
     display: flex;
     justify-content: space-around;
 }
 
-nav {
-    flex-wrap: wrap;
-    background-color: var(--verde-04);
-    width: 100vw;
-    height: 125px;
-    box-shadow: 0px 7px 50px #000;
-}
 
 #logo-menu {
     width: 100px;
@@ -31,26 +48,51 @@ nav {
 }
 
 #icone-menu {
-    margin-top: 35px;
-    width: 53px;
-    height: 50px;
-    box-shadow: 0px 7px 1px black;
-    border-radius: 25px;
+    width: 33px;
+    height: 30px;
+    border-radius: 10px;
+    background-size: 50px;
 }
 
 #carrinho-de-compras {
+    width: 33px;
+    height: 30px;
+    border-radius: 10px;
+    background-size: 100px;
+}
+
+#carrinho-de-compras:active, #icone-menu:active {
+    background-color: var(--sombra-de-items);
+}
+
+.menu-button {
     margin-top: 35px;
     width: 53px;
     height: 50px;
-    box-shadow: 0px 7px 1px black;
     border-radius: 25px;
+    background-color: transparent;
+    border: none;
 }
 
-main {
-    display: grid;
+#container-carosel {
+    height: 500px;
+    margin-top: 25px;
+}
+.container-main-1, .container-main-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    height: 300px;
     width: 100vw;
-    height: 100vh;
-    background-color: var(--verde-01);
+    background-color: white;
+}
+.item {
+    background-color: black;
+    width: 100px;
+    height: 150px;
 }
 
-.container {}
+@media screen and (min-width: 1024px) {
+
+}
