@@ -1,12 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-:root{
- --bege: #DAD7CD;
- --verde-01: #A3B18A;
- --verde-02: #588157;
- --verde-03: #3A5A40;
- --verde-04: #344E41;
- --preto: #000;
- --branco: #fff;
- --fonte: "Montserrat", sans-serif;
+:root {
+  --bege: #dad7cd;
+  --verde-01: #a3b18a;
+  --verde-02: #588157;
+  --verde-03: #3a5a40;
+  --verde-04: #344e41;
+  --preto: #000;
+  --branco: #fff;
+  --fonte: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #dad7cd;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #3a5a40;
+  color: white;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.icon {
+  width: 1.875rem;
+  margin-left: 0.625rem;
+}
+
+.logo {
+  width: 2.5rem;
+}
+
+.text {
+  font-size: 1.2rem;
+  color: #344e41;
+}
+
+.contact-icon {
+  width: 5rem;
+  margin: 0.625rem;
+}
+
+.social-icon {
+  width: 3.75rem;
+  margin: 0.625rem;
+}
+
+.container {
+  flex: 1;
+}
+
+.footer {
+  background-color: #3a5a40;
+  color: white;
+  padding: 0.625rem;
+  text-align: center;
+  margin-top: auto;
 }
