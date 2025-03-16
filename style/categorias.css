@@ -2,7 +2,7 @@
 
 :root {
     --bege: #DAD7CD;
-    --cor-01: #DFDFE1;
+    --cor-01: #91C4D9;
     --cor-02: #0F8C22;
     --cor-03: #73A641;
     --cor-04: #F2C46D;
@@ -13,15 +13,16 @@
 
 header {
     background-color: var(--cor-01);
+    border: none;
 }
 
 nav {
     flex-wrap: wrap;
     background-color: var(--cor-02);
     width: 100vw;
-    height: 125px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    height: 150px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 main {
@@ -48,49 +49,42 @@ main {
 }
 
 #icone-menu {
-    width: 33px;
-    height: 30px;
-    border-radius: 10px;
-    background-size: 50px;
+    width: 56px;
+    height: 49px;
 }
 
 #carrinho-de-compras {
-    width: 33px;
-    height: 30px;
-    border-radius: 10px;
-    background-size: 100px;
-}
-
-#carrinho-de-compras:active, #icone-menu:active {
-    background-color: var(--sombra-de-items);
+    width: 36px;
+    height: 33px;
 }
 
 .menu-button {
     margin-top: 35px;
     width: 53px;
     height: 50px;
-    border-radius: 25px;
     background-color: transparent;
     border: none;
 }
 
 #container-carosel {
-    height: 500px;
+    height: 0px;
     margin-top: 25px;
 }
 .container-main-1, .container-main-2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 25px;
     height: 300px;
     width: 100vw;
-    background-color: white;
+    border-radius: 7px;
+    background-color: var(--cor-03);
 }
 .item {
-    background-color: black;
-    width: 100px;
-    height: 150px;
+    background-color: var(--cor-04);
+    width: 175px;
+    height: 250px;
+    border-radius: 5px;
 }
 
 @media screen and (min-width: 1024px) {
