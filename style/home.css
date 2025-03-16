@@ -10,3 +10,33 @@
  --branco: #fff;
  --fonte: "Montserrat", sans-serif;
 }
+
+body{
+    background-color: var(--bege);
+}
+nav{
+    background-color: var(--verde-04);
+}
+.titles{
+    color: var(--bege);
+}
+.nav_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+}
+.nav_image{
+    padding: 1rem;
+}
+.dropdown-menu-color{
+    background-color: var(--verde-04);
+    color: var(--bege);
+    border: 1px solid black;
+}
+.dropdown-menu{
+    background-color: var(--bege);
+}
+.dropdown-item:hover{
+    background-color: var(--branco);
+}
