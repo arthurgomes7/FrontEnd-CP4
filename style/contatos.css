@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-:root{
- --bege: #DAD7CD;
- --verde-01: #A3B18A;
- --verde-02: #588157;
- --verde-03: #3A5A40;
- --verde-04: #344E41;
- --preto: #000;
- --branco: #fff;
- --fonte: "Montserrat", sans-serif;
-}  
+:root {
+  --bege: #dad7cd;
+  --verde-01: #a3b18a;
+  --verde-02: #588157;
+  --verde-03: #3a5a40;
+  --verde-04: #344e41;
+  --preto: #000;
+  --branco: #fff;
+  --fonte: "Montserrat", sans-serif;
+}
 
 body {
   background-color: #dad7cd;
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
