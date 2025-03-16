@@ -16,12 +16,11 @@ body{
 #title{
     padding: 1rem;
     color: var(--verde-04);
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 .navbar{
     background-color: var(--branco);
     height: 5rem;
-    margin: 1.25rem;
     border-radius: 1rem;
     padding: 0.5rem;
 }

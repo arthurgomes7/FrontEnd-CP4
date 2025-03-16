@@ -10,3 +10,117 @@
  --branco: #fff;
  --fonte: "Montserrat", sans-serif;
 }
+header{
+    grid-area: header;
+    background-color: var(--verde-04);
+    border-radius: 1rem;
+    color: var(--bege);
+}
+main{
+    grid-area: main;
+}
+section{
+    grid-area: section;
+}
+footer{
+    grid-area: section;
+}
+body{
+    background-color: var(--bege);
+    font-family: var(--fonte);
+    margin: 8px 8px 0 8px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+}
+.nav-image{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.nav-name{
+    font-size: 0.5rem;
+}
+.main-image-produto{
+    background-color: var(--branco);
+    margin: 1rem 0;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#image-produto{
+    width: 90%;
+}
+.caracteristica-produto{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+#preco{
+    background-color: var(--verde-01);
+    padding: 0.4rem;
+    border-radius: 1rem;
+}
+.align-items-center{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    gap: 0.5rem;
+    justify-content: center;
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branco);
+    border-radius: 1rem;
+    padding: 0.2rem 0.5rem;
+    gap: 0.5rem;
+    width: 100%;
+}
+.col:hover{
+    background-color: var(--verde-01);
+    transition: 0.3s ease-in-out;
+}
+.caracteristicas-produto{
+    background-color: var(--branco);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.title-produto{
+    font-weight: bold;
+}
+.paragrafo-produto{
+    font-size: 0.8rem;
+}
+footer{
+    background-color: var(--verde-04);
+    border-radius: 1rem 0 0 0;
+    justify-content: center;
+}
+.footer-container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.footer-item a{
+    color: var(--branco);
+    text-decoration: none;
+}
+.footer-item:hover{
+    text-decoration: underline;
+    color: var(--branco);
+}
+@media screen and (min-width: 768px){
+    .general-container{
+        display: flex;
+        flex-direction: row;
+    }
+}
