@@ -133,6 +133,10 @@ footer{
     font-size: 0.8rem;
     text-decoration: none;
 }
+.footer-items > h4 :hover{
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
 @media (min-widht: 991px){
     .nav-link::before{
         content: "";
@@ -165,7 +169,7 @@ footer{
         font-size: 4.5rem;
     }
     .main-image{
-        width: 85%;
+        width: 40%;
     }
     .items-card{
         flex-direction: row;
@@ -192,10 +196,10 @@ footer{
         font-size: 3rem;
     }
     .main-text{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .main-image{
-        width: 50%;
+        width: 30%;
     }
 }
 @media screen and (min-width: 1820px){
